@@ -1,0 +1,12 @@
+{
+  name: '@taro/error',
+  version: '1.0.0',
+  description: 'Error handling',
+  main: 'index.mjs',
+  type: 'module',
+  scripts: {
+    test: 'echo \"Error: no test specified\" && exit 1'
+  },
+  author: '<HTMLGhozt> Thomas Dillard',
+  license: 'MIT'
+}

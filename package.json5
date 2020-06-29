@@ -1,0 +1,14 @@
+{
+  name: 'trio',
+  version: '1.0.0',
+  description: 'A monorepo test',
+  scripts: {
+    'server:start:dev': 'pnpm recursive run start:dev --filter @trio/server',
+    'web:start': 'pnpm recursive run start --filter @trio/web',
+  },
+  author: '<HTMLGhozt> Thomas Dillard',
+  license: 'MIT',
+  devDependencies: {
+    nodemon: '^1.19.3',
+  },
+}

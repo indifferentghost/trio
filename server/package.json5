@@ -1,0 +1,13 @@
+{
+  name: '@trio/server',
+  version: '1.0.0',
+  description: 'monorepo server',
+  main: 'server.mjs',
+  type: 'module',
+  scripts: {
+    'start:dev': 'nodemon --experimental-modules server.mjs'
+  },
+  dependencies: {
+    '@trio/pathUtils': 'workspace:*',
+  }
+}
